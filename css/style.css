@@ -73,6 +73,14 @@ h3 {
   margin: auto;
 }
 
+.project-left {
+  padding: 0px 24px 0px 12px;
+}
+
+.project-right {
+  padding: 0px 12px 0px 24px;
+}
+
 .project-info {
   text-align: justify;
 }
@@ -117,4 +125,26 @@ h3 {
 .image {
   height: 100%;
   width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .links {
+    margin: 20px;
+  }
+
+  .project-left {
+    padding: 0px 12px;
+  }
+
+  .project-right {
+    padding: 24px 12px 0px;
+  }
 }
